@@ -39,7 +39,7 @@ From: andersenlabapps/ivar:1.3.1
 
 
   conda create -y -n bioinfo \
-                     scipy \
+                     scipy=1.5.3 \
                      biopython=1.78 \
                      seqtk=1.3 \
                      seqkit=0.15.0 \
@@ -52,7 +52,7 @@ From: andersenlabapps/ivar:1.3.1
                      numpy=1.19.5 \
                      matplotlib=3.3.3 \
                      pandas=1.1.5 \
-                     openpyxl \
+                     openpyxl=3.0.6 \
                      pilon=1.23 \
                      snpeff=5.0 \
                      bbmap
@@ -62,7 +62,3 @@ From: andersenlabapps/ivar:1.3.1
 %environment
   export PATH=/opt/anaconda3/bin:$PATH
   export PATH=/opt/anaconda3/envs/bioinfo/bin:$PATH
-
-
-
-
