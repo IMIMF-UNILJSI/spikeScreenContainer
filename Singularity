@@ -39,7 +39,7 @@ From: andersenlabapps/ivar:1.3.1
 
 
   conda create -y -n bioinfo \
-                     scipy
+                     scipy \
                      biopython=1.78 \
                      seqtk=1.3 \
                      seqkit=0.15.0 \
