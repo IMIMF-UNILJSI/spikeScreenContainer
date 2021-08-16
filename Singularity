@@ -55,7 +55,8 @@ From: andersenlabapps/ivar:1.3.1
                      openpyxl=3.0.6 \
                      pilon=1.23 \
                      snpeff=5.0 \
-                     bbmap=38.91
+                     bbmap=38.91 \
+                     spades=3.14 
   # mountpoint
   mkdir /opt/scripts
 
