@@ -56,7 +56,8 @@ From: andersenlabapps/ivar:1.3.1
                      pilon=1.23 \
                      snpeff=5.0 \
                      bbmap=38.91 \
-                     spades=3.14 
+                     spades=3.15 \
+                     kat=2.4.2
   # mountpoint
   mkdir /opt/scripts
 
